@@ -17,7 +17,7 @@ I intend to use this system for many projects I have in mind.
 * [electronics](electronics/README.md) contains all the electronic hardware
 * [software](software/README.md) contains all the software used in the project. Mostly contains examples for the microcontroller boards using this system.
 * [mechanical](mechanical/README.md) contains all the CAD drawings, mostly 3d printable objects.
-* [documentation](documentation/index.md) contains more in depth information and examples using this system.
+* [documentation](documentation/README.md) contains more in depth information and examples using this system.
 ## Cloning
 This repository makes extensive use of submodules, use ```git clone --recurse-submodules https://github.com/Squantor/generic_project_template.git``` to clone everything in one go.
 
