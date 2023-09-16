@@ -1,0 +1,6 @@
+# freecad backup files
+*.FCStd?
+
+# ignore generated files
+*.stl
+*.3mf
