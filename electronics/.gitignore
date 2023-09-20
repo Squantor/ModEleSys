@@ -7,6 +7,7 @@
 _autosave*
 fp-info-cache
 *-cache.lib
+*.lck
 
 # kicad 6 temporaries and local settings
 *-backups/
