@@ -35,8 +35,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.7,
-          "width": 0.9
+          "height": 1.8,
+          "width": 1.64
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -119,7 +119,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.0,
+        "min_copper_edge_clearance": 0.3,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
@@ -245,7 +245,9 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "pin_to_pin|647700|838200|7fe52020-f6cd-4264-a46c-1d6823678611|544dbf1c-bfe1-4699-b70b-53bd9a5c2f0a|/646d9e91-59b4-4865-a2fc-29780ed32563|/646d9e91-59b4-4865-a2fc-29780ed32563|/646d9e91-59b4-4865-a2fc-29780ed32563"
+    ],
     "meta": {
       "version": 0
     },
@@ -460,7 +462,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "board_alubox_PSU.kicad_pro",
+    "filename": "mod_1x1_PSU_2xAC_flexible.kicad_pro",
     "version": 1
   },
   "net_settings": {

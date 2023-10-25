@@ -266,6 +266,12 @@
       (property "Datasheet" "~" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
+      (property "Sim.Device" "D" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Sim.Pins" "1=K 2=A" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
       (property "ki_keywords" "diode" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -1152,9 +1158,6 @@
   (junction (at 77.47 73.66) (diameter 0) (color 0 0 0 0)
     (uuid 94aed048-baaf-46b3-9377-6decff5da6f9)
   )
-  (junction (at 58.42 31.75) (diameter 0) (color 0 0 0 0)
-    (uuid 9502d759-747d-486c-9b2b-836b7d5d2d22)
-  )
   (junction (at 68.58 105.41) (diameter 0) (color 0 0 0 0)
     (uuid 956e0b07-4777-423c-bcb3-fb36f49f6980)
   )
@@ -1313,7 +1316,7 @@
     (stroke (width 0) (type default))
     (uuid 16a3fba8-9f40-4157-bf2e-367d28d48652)
   )
-  (wire (pts (xy 81.28 30.48) (xy 82.55 30.48))
+  (wire (pts (xy 81.28 33.02) (xy 82.55 33.02))
     (stroke (width 0) (type default))
     (uuid 17113b68-1085-4ad7-a5e7-ba220e40ce85)
   )
@@ -1325,10 +1328,6 @@
     (stroke (width 0) (type default))
     (uuid 1bfcdf3d-a077-499a-bf05-7b271e571ec5)
   )
-  (wire (pts (xy 67.31 26.67) (xy 68.58 26.67))
-    (stroke (width 0) (type default))
-    (uuid 1fdca1a0-63f4-40c7-8610-6b6b168d01a5)
-  )
   (wire (pts (xy 38.1 25.4) (xy 40.64 25.4))
     (stroke (width 0) (type default))
     (uuid 21346bef-eb58-49b1-8a16-32ffc5000636)
@@ -1336,10 +1335,6 @@
   (wire (pts (xy 39.37 71.12) (xy 39.37 69.85))
     (stroke (width 0) (type default))
     (uuid 219cc4cd-db04-43b8-9397-32c712011228)
-  )
-  (wire (pts (xy 67.31 31.75) (xy 68.58 31.75))
-    (stroke (width 0) (type default))
-    (uuid 228de591-6f6e-45e3-a7be-d51a133c1002)
   )
   (wire (pts (xy 19.05 45.72) (xy 19.05 48.26))
     (stroke (width 0) (type default))
@@ -1387,10 +1382,6 @@
   (wire (pts (xy 80.01 102.87) (xy 81.28 102.87))
     (stroke (width 0) (type default))
     (uuid 34e75baf-e365-45cc-a257-8644b714a6cc)
-  )
-  (wire (pts (xy 58.42 31.75) (xy 59.69 31.75))
-    (stroke (width 0) (type default))
-    (uuid 35243f3b-bfe2-43be-b5ce-e51f9efef7c1)
   )
   (wire (pts (xy 39.37 91.44) (xy 39.37 88.9))
     (stroke (width 0) (type default))
@@ -1504,10 +1495,6 @@
     (uuid 61a6b39f-e8b0-4941-96a5-9c2a47a0595a)
   )
 
-  (wire (pts (xy 58.42 36.83) (xy 59.69 36.83))
-    (stroke (width 0) (type default))
-    (uuid 6225acb1-d791-4dc6-a95f-5092b7a15117)
-  )
   (wire (pts (xy 71.12 99.06) (xy 68.58 99.06))
     (stroke (width 0) (type default))
     (uuid 6229b794-cae5-4623-9459-523202e46895)
@@ -1520,7 +1507,7 @@
     (stroke (width 0) (type default))
     (uuid 65b20f14-972e-46bc-97e6-9ead1919a339)
   )
-  (wire (pts (xy 81.28 27.94) (xy 82.55 27.94))
+  (wire (pts (xy 81.28 30.48) (xy 82.55 30.48))
     (stroke (width 0) (type default))
     (uuid 67143202-1ce2-4675-9a87-34a282dcf0e0)
   )
@@ -1536,7 +1523,7 @@
     (stroke (width 0) (type default))
     (uuid 6e479a98-05e6-406e-bf40-08bd269b8bfe)
   )
-  (wire (pts (xy 67.31 21.59) (xy 68.58 21.59))
+  (wire (pts (xy 67.31 21.59) (xy 73.66 21.59))
     (stroke (width 0) (type default))
     (uuid 70011920-53ad-43a1-8b89-862b3cbd528a)
   )
@@ -1643,10 +1630,6 @@
     (stroke (width 0) (type default))
     (uuid 87d6c95b-40d9-4f86-87b2-9caf04a969fd)
   )
-  (wire (pts (xy 58.42 26.67) (xy 58.42 31.75))
-    (stroke (width 0) (type default))
-    (uuid 884b89ab-d11a-4ecc-9617-94ecaa87517a)
-  )
   (wire (pts (xy 19.05 30.48) (xy 19.05 35.56))
     (stroke (width 0) (type default))
     (uuid 8a11f7e0-bee8-48f1-b9a9-d354dba02e49)
@@ -1726,10 +1709,6 @@
     (stroke (width 0) (type default))
     (uuid a243b8b5-d5bf-4206-8c78-8d3fe55a3a9c)
   )
-  (wire (pts (xy 67.31 36.83) (xy 73.66 36.83))
-    (stroke (width 0) (type default))
-    (uuid a2ed604e-d5c7-46f0-a8a0-2c7fe63e089d)
-  )
   (wire (pts (xy 68.58 107.95) (xy 71.12 107.95))
     (stroke (width 0) (type default))
     (uuid a305d82b-3f19-47cc-ae19-49fcf82d152b)
@@ -1773,14 +1752,6 @@
   (wire (pts (xy 77.47 73.66) (xy 77.47 69.85))
     (stroke (width 0) (type default))
     (uuid b16a78b6-4aa7-4aeb-be41-ffe33d500d03)
-  )
-  (wire (pts (xy 58.42 31.75) (xy 58.42 36.83))
-    (stroke (width 0) (type default))
-    (uuid b2446f34-d3bb-4e55-877b-bc1b981244f7)
-  )
-  (wire (pts (xy 59.69 26.67) (xy 58.42 26.67))
-    (stroke (width 0) (type default))
-    (uuid b285ba1e-300f-4f39-98a8-ce71b4a42ab5)
   )
   (wire (pts (xy 39.37 99.06) (xy 39.37 96.52))
     (stroke (width 0) (type default))
@@ -1853,7 +1824,7 @@
     (stroke (width 0) (type default))
     (uuid c21831e1-26de-46e7-8c8a-7bd0044d6493)
   )
-  (wire (pts (xy 81.28 22.86) (xy 82.55 22.86))
+  (wire (pts (xy 81.28 25.4) (xy 82.55 25.4))
     (stroke (width 0) (type default))
     (uuid c2f0f1d5-d4b9-48a3-953e-254d4d2b5a59)
   )
@@ -2056,7 +2027,7 @@
     (stroke (width 0) (type default))
     (uuid f42c0601-e673-4690-84ad-4a8245dda46a)
   )
-  (wire (pts (xy 81.28 25.4) (xy 82.55 25.4))
+  (wire (pts (xy 81.28 27.94) (xy 82.55 27.94))
     (stroke (width 0) (type default))
     (uuid f4c1a91f-c6ab-4093-93b4-07f2c8a25e00)
   )
@@ -2167,14 +2138,6 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 330848fc-92bc-487e-b46f-c5fa152754a6)
   )
-  (label "DC1p" (at 68.58 31.75 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 4103041d-5f73-43fa-b469-8132e3798f1b)
-  )
-  (label "AC1_NEUT" (at 58.42 31.75 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 44e01694-e017-4c0e-9384-1ec2f8c02077)
-  )
   (label "DC1n" (at 90.17 69.85 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 44e9bf5d-acfd-49f5-aaaf-98885996dd48)
@@ -2186,10 +2149,6 @@
   (label "DC2" (at 68.58 115.57 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4b32f2ce-84d9-41e3-9aa0-17858bb47c53)
-  )
-  (label "DC1n" (at 68.58 36.83 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 4f42354d-6c74-478f-b54a-a074f2f27802)
   )
   (label "AC2_PHASE" (at 58.42 44.45 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -2214,10 +2173,6 @@
   (label "DC1p" (at 66.04 86.36 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6c079912-9d1e-4293-8578-d4c1822c2c4b)
-  )
-  (label "AC1_NEUT" (at 100.33 137.16 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 71f0c5c4-0b49-4894-a089-91f93001b390)
   )
   (label "DC1n" (at 68.58 21.59 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -2259,7 +2214,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid aefb1ac1-d49c-49f9-b6a0-3cd31b107a30)
   )
-  (label "DC1n" (at 82.55 25.4 0) (fields_autoplaced)
+  (label "DC1n" (at 82.55 27.94 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid af1be271-491a-4ec8-8bc2-73260f82050b)
   )
@@ -2279,7 +2234,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid baaa3ce1-a0c0-481b-ad33-93d98e49489f)
   )
-  (label "DC1p" (at 82.55 27.94 0) (fields_autoplaced)
+  (label "DC1p" (at 82.55 30.48 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid bb689ed7-11f2-43b7-ba06-67822057481a)
   )
@@ -2342,7 +2297,7 @@
     (property "Reference" "N1" (at 24.13 186.69 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Value" "202200917" (at 19.05 189.23 0)
+    (property "Value" "202201025" (at 19.05 189.23 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
     (property "Footprint" "SquantorLabels:Label_Generic" (at 25.4 189.23 0)
@@ -2352,7 +2307,7 @@
       (effects (font (size 1.524 1.524)) hide)
     )
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "N1") (unit 1)
         )
@@ -2376,7 +2331,7 @@
       (effects (font (size 1.524 1.524)) hide)
     )
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "N2") (unit 1)
         )
@@ -2402,7 +2357,7 @@
     (pin "1" (uuid 7096bb1b-2db9-4d3f-823b-ddc6406b5170))
     (pin "2" (uuid 8e842641-c897-4b72-a73a-0e6bb692abf7))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "C6") (unit 1)
         )
@@ -2427,7 +2382,7 @@
     )
     (pin "1" (uuid d8068ab9-9f91-4c0f-be22-c1eaa6fc44af))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "#PWR0119") (unit 1)
         )
@@ -2453,35 +2408,9 @@
     (pin "1" (uuid 8051c1ef-3f1d-41c6-8e9d-17bb894369a6))
     (pin "2" (uuid 7bb34705-0bce-43e5-93f7-7d0f016cf722))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "F2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 63.5 26.67 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 090e652d-7572-4105-8421-33a407e3ba23)
-    (property "Reference" "R1" (at 67.31 27.94 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "R" (at 63.5 26.67 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "SquantorRcl:R_1206" (at 63.5 28.448 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 63.5 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 49ced03d-250d-49d1-8177-92fd4e2bd46d))
-    (pin "2" (uuid 12b2e73d-5483-4090-8878-cf1c3262c6cb))
-    (instances
-      (project "board_alubox_PSU"
-        (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
-          (reference "R1") (unit 1)
         )
       )
     )
@@ -2504,7 +2433,7 @@
     )
     (pin "1" (uuid 1af18fac-4518-477e-9ff9-3ae898d26e14))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "#PWR0114") (unit 1)
         )
@@ -2530,7 +2459,7 @@
     (pin "1" (uuid dde951ca-da2c-43fa-bb5f-bdb8ae2f16db))
     (pin "2" (uuid d557bcea-8d17-46ca-9761-9fa125272418))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "C7") (unit 1)
         )
@@ -2555,7 +2484,7 @@
     )
     (pin "1" (uuid 2f73054e-9758-4d4f-835c-00013221e78e))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "#PWR0112") (unit 1)
         )
@@ -2579,7 +2508,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "HS2") (unit 1)
         )
@@ -2605,7 +2534,7 @@
     (pin "1" (uuid c97dd644-a9e6-4020-a1e3-6b83fd8cc2fc))
     (pin "2" (uuid 637c2660-7fb3-4737-b7b8-7fa144f17aed))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "F1") (unit 1)
         )
@@ -2620,7 +2549,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 71.12 38.1 90)
-      (effects (font (size 1.27 1.27)) (justify right))
+      (effects (font (size 1.27 1.27)) (justify right) hide)
     )
     (property "Footprint" "" (at 73.66 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2630,7 +2559,7 @@
     )
     (pin "1" (uuid c31a0de6-5bb8-4b04-81ab-61dc8c989f2c))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "#PWR04") (unit 1)
         )
@@ -2653,10 +2582,16 @@
     (property "Datasheet" "~" (at 63.5 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Sim.Device" "D" (at 63.5 57.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Pins" "1=K 2=A" (at 63.5 57.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 56e99e3f-0c07-448d-85b2-7fb0d4d96f76))
     (pin "2" (uuid 770cb9b9-274a-4704-a69e-b70ba59f8371))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "D8") (unit 1)
         )
@@ -2681,7 +2616,7 @@
     )
     (pin "1" (uuid 64824b1a-7ed7-44b6-8b1c-2ed13a95d4d7))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "#FLG01") (unit 1)
         )
@@ -2704,10 +2639,16 @@
     (property "Datasheet" "~" (at 63.5 16.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Sim.Device" "D" (at 63.5 16.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Pins" "1=K 2=A" (at 63.5 16.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 8062cc3d-c68c-4205-a97c-f794366b660c))
     (pin "2" (uuid 554017fe-b5c7-458d-8d3d-daa26e68e7fb))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "D1") (unit 1)
         )
@@ -2730,10 +2671,16 @@
     (property "Datasheet" "~" (at 63.5 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Sim.Device" "D" (at 63.5 46.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Pins" "1=K 2=A" (at 63.5 46.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 34eb8d6c-2589-4eec-b5c5-3123c60a6c0b))
     (pin "2" (uuid a6d766fd-250b-42aa-8f7b-d679cac0d21f))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "D6") (unit 1)
         )
@@ -2756,10 +2703,16 @@
     (property "Datasheet" "~" (at 63.5 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Sim.Device" "D" (at 63.5 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Pins" "1=K 2=A" (at 63.5 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 455d2493-9cab-4ccb-84fc-16a93cd481ac))
     (pin "2" (uuid 1fe23cac-ad97-4e5e-a05a-694b820c1b60))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "D5") (unit 1)
         )
@@ -2786,7 +2739,7 @@
     (pin "2" (uuid 40cceded-97ca-4f85-8001-c9e1ff3aa77f))
     (pin "3" (uuid dd9611f1-9ef7-46c5-80f7-088b7b5f5148))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "U3") (unit 1)
         )
@@ -2811,7 +2764,7 @@
     )
     (pin "1" (uuid 53aa5f38-4e1a-45a7-8899-31ec8ec3dc35))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "#PWR0108") (unit 1)
         )
@@ -2836,7 +2789,7 @@
     )
     (pin "1" (uuid fe0567b1-e137-4f7b-8a1c-bf2a2d3020cf))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "#PWR0115") (unit 1)
         )
@@ -2862,7 +2815,7 @@
     (pin "1" (uuid b37634f8-8f37-4411-b11d-2dd6ce0273ad))
     (pin "2" (uuid bcd6e448-31d9-4c82-a3f6-65e793c1cd88))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "C13") (unit 1)
         )
@@ -2916,7 +2869,7 @@
     (pin "8" (uuid 61acf12e-f0ca-4788-a8d5-041f9e62b130))
     (pin "9" (uuid 91aa13fd-d187-4970-8a0e-d05190d5e352))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "J1") (unit 1)
         )
@@ -2941,7 +2894,7 @@
     )
     (pin "1" (uuid 31abfab8-d69b-4bf0-b18d-c19c648f3347))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "#PWR0102") (unit 1)
         )
@@ -2967,7 +2920,7 @@
     (pin "1" (uuid e4afdbe0-b83d-4e6d-8118-dcaf2c647035))
     (pin "2" (uuid 043e1dd0-3f48-48c2-be88-ad5e385fdeaf))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "R3") (unit 1)
         )
@@ -2990,10 +2943,16 @@
     (property "Datasheet" "~" (at 96.52 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Sim.Device" "D" (at 96.52 102.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Pins" "1=K 2=A" (at 96.52 102.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid c2841d3e-55f7-4075-827a-b60b767cf055))
     (pin "2" (uuid 5946a482-24b4-4505-8b08-c3ed04f022af))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "D15") (unit 1)
         )
@@ -3020,7 +2979,7 @@
     (pin "2" (uuid 0d117cef-c0e8-4122-9eaf-87d001e17a22))
     (pin "3" (uuid c2e6d8d9-ce59-4a09-b45a-9d2c5b295fcc))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "U4") (unit 1)
         )
@@ -3046,7 +3005,7 @@
     (pin "1" (uuid e510491c-290b-4ade-a011-bc89061e81b7))
     (pin "2" (uuid ffe208f8-1a56-415f-ad5d-4527810ec602))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "R4") (unit 1)
         )
@@ -3070,7 +3029,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "HS1") (unit 1)
         )
@@ -3096,7 +3055,7 @@
     (pin "1" (uuid 79b15141-2ca3-49d6-b598-3c456c368487))
     (pin "2" (uuid 45a391db-70d6-40c7-8613-657ce6aa2440))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "R10") (unit 1)
         )
@@ -3121,7 +3080,7 @@
     )
     (pin "1" (uuid 96142df0-0e92-4257-8e82-6f4bc132d730))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "#PWR0111") (unit 1)
         )
@@ -3146,35 +3105,9 @@
     )
     (pin "1" (uuid 06951801-52a4-499c-9375-29eb5a84a590))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "#PWR0110") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:D") (at 63.5 31.75 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 6704dc50-f0be-45a3-9a07-1a9a54fc9128)
-    (property "Reference" "D3" (at 66.04 30.48 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "D" (at 66.04 33.02 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "SquantorDiodes:SOD-123F-hand" (at 63.5 31.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 63.5 31.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e8db47f6-bb78-4ebc-aa7e-c823704147a3))
-    (pin "2" (uuid 9d461c86-6b62-4404-918b-e62d80ae8eea))
-    (instances
-      (project "board_alubox_PSU"
-        (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
-          (reference "D3") (unit 1)
         )
       )
     )
@@ -3198,7 +3131,7 @@
     (pin "1" (uuid d8501b97-7c1b-49b2-b854-0c6d562a7090))
     (pin "2" (uuid 5017c0be-012f-4439-a4ce-581e278310c1))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "C10") (unit 1)
         )
@@ -3223,7 +3156,7 @@
     )
     (pin "1" (uuid 291a0fdd-1e62-4eec-a743-d683bb6728ad))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "#FLG03") (unit 1)
         )
@@ -3248,7 +3181,7 @@
     )
     (pin "1" (uuid 0f1fd455-68f6-405e-975f-eb10fe5a25d4))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "#PWR03") (unit 1)
         )
@@ -3274,7 +3207,7 @@
     (pin "1" (uuid 45614e5b-5795-4507-a8b7-50e0eb4bf67f))
     (pin "2" (uuid 5d58a91d-5239-41ee-95f9-792d07f06034))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "C3") (unit 1)
         )
@@ -3291,16 +3224,22 @@
     (property "Value" "D" (at 72.39 83.82 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SquantorDiodes:SOD-523_hand" (at 72.39 81.28 0)
+    (property "Footprint" "SquantorDiodes:SOD-323-nexperia-hand" (at 72.39 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 72.39 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Sim.Device" "D" (at 72.39 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Pins" "1=K 2=A" (at 72.39 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 84dad0f0-9014-437c-9f9a-de87362156b2))
     (pin "2" (uuid b189295f-c403-4041-923c-f029c5562a74))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "D10") (unit 1)
         )
@@ -3327,35 +3266,9 @@
     (pin "2" (uuid fbb7788e-64ad-491a-bf42-a95605cd351b))
     (pin "3" (uuid 1204274e-b86e-49b8-9d05-1f26d0fa93f4))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "J4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:D") (at 63.5 36.83 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 85a1fceb-0499-4cc6-91dd-18c1f4cd4e6e)
-    (property "Reference" "D4" (at 66.04 35.56 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "D" (at 66.04 38.1 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "SquantorDiodes:SOD-123F-hand" (at 63.5 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 63.5 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2cae5fd1-7ab4-4cfa-aefd-797c591014cc))
-    (pin "2" (uuid c9ed9c51-a684-4f7e-a07a-1cd0d0dcd872))
-    (instances
-      (project "board_alubox_PSU"
-        (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
-          (reference "D4") (unit 1)
         )
       )
     )
@@ -3380,7 +3293,7 @@
     (pin "2" (uuid 7fe52020-f6cd-4264-a46c-1d6823678611))
     (pin "3" (uuid d25a984e-a9b6-4e4e-b5bf-c8c83d5e938e))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "U1") (unit 1)
         )
@@ -3406,7 +3319,7 @@
     (pin "1" (uuid 060ce41b-eb80-4a5c-ad5c-7cc1fb0422d3))
     (pin "2" (uuid 7916f3e9-aa2b-4c92-b192-90e270f565d8))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "C11") (unit 1)
         )
@@ -3431,7 +3344,7 @@
     )
     (pin "1" (uuid 5d64f51b-3403-4d77-a339-61d279b95226))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "#FLG04") (unit 1)
         )
@@ -3457,7 +3370,7 @@
     (pin "1" (uuid d8c05834-867e-441f-8139-60587e96cf0f))
     (pin "2" (uuid f8ede70b-b70f-4049-bb5c-a82b6599fbb9))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "J5") (unit 1)
         )
@@ -3482,7 +3395,7 @@
     )
     (pin "1" (uuid 34b3c690-c684-4e1c-ab56-dc4d96f8c525))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "#PWR0116") (unit 1)
         )
@@ -3508,7 +3421,7 @@
     (pin "1" (uuid ec29cd7b-746c-4135-a686-dddc0540d89a))
     (pin "2" (uuid 6241f96d-1c07-45f9-84b5-07973774c675))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "C4") (unit 1)
         )
@@ -3533,7 +3446,7 @@
     )
     (pin "1" (uuid 796e4129-6cc6-421e-95bc-723f631962c8))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "#PWR0101") (unit 1)
         )
@@ -3558,7 +3471,7 @@
     )
     (pin "1" (uuid 4c122b49-1165-496e-bee8-02e16a49dd10))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "#PWR0104") (unit 1)
         )
@@ -3583,7 +3496,7 @@
     )
     (pin "1" (uuid 17b6be16-4c37-49df-a494-cd822e81e028))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "#PWR0109") (unit 1)
         )
@@ -3608,7 +3521,7 @@
     )
     (pin "1" (uuid 0e2fe823-b2f0-4c4f-8afa-c242de13fb2e))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "#PWR02") (unit 1)
         )
@@ -3625,16 +3538,22 @@
     (property "Value" "D" (at 74.93 113.03 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SquantorDiodes:SOD-523_hand" (at 74.93 110.49 0)
+    (property "Footprint" "SquantorDiodes:SOD-323-nexperia-hand" (at 74.93 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 74.93 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Sim.Device" "D" (at 74.93 110.49 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Pins" "1=K 2=A" (at 74.93 110.49 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid d40e174c-e709-4023-bb42-caf48f06f970))
     (pin "2" (uuid b61b56aa-45bf-4637-8b66-1f463bd27e37))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "D14") (unit 1)
         )
@@ -3657,10 +3576,16 @@
     (property "Datasheet" "~" (at 93.98 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Sim.Device" "D" (at 93.98 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Pins" "1=K 2=A" (at 93.98 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 72047e3b-342c-4a25-8a82-661f1a4f37bd))
     (pin "2" (uuid f6e82562-13cb-4d8d-8b7f-64ba21ba6f37))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "D11") (unit 1)
         )
@@ -3685,7 +3610,7 @@
     )
     (pin "1" (uuid c80ecf35-8a66-4b71-a702-0f9ff99d4c8c))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "#PWR0105") (unit 1)
         )
@@ -3711,7 +3636,7 @@
     (pin "1" (uuid a91b43d7-1a66-438c-847b-e0aa4b5696f9))
     (pin "2" (uuid 8282e76d-5660-48a9-bd94-bc8783b22318))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "R8") (unit 1)
         )
@@ -3738,7 +3663,7 @@
     (pin "2" (uuid 544dbf1c-bfe1-4699-b70b-53bd9a5c2f0a))
     (pin "3" (uuid 96cc33f6-1875-4a12-89da-df9f1ea4edf6))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "U2") (unit 1)
         )
@@ -3764,7 +3689,7 @@
     (pin "1" (uuid c02d0745-3801-477c-99d8-350e2cca2927))
     (pin "2" (uuid d28dc4e5-8688-4f96-8266-cc0f8f66c187))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "C5") (unit 1)
         )
@@ -3790,7 +3715,7 @@
     (pin "1" (uuid e9375a37-5247-4d43-aa3b-20311d4a98b5))
     (pin "2" (uuid 40c169e1-cff3-4148-8713-8184cc937118))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "J6") (unit 1)
         )
@@ -3816,7 +3741,7 @@
     (pin "1" (uuid e5ac4fb3-7bbc-4c55-a219-2d0ca304c5f2))
     (pin "2" (uuid dda22aa4-237e-4bde-a551-3cab2a405321))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "R7") (unit 1)
         )
@@ -3824,24 +3749,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 82.55 30.48 90) (unit 1)
+  (symbol (lib_id "power:GND") (at 82.55 33.02 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b4605059-7158-4c27-ab7d-bba265912e96)
-    (property "Reference" "#PWR0106" (at 88.9 30.48 0)
+    (property "Reference" "#PWR0106" (at 88.9 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 86.36 30.4799 90)
+    (property "Value" "GND" (at 86.36 33.0199 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 82.55 30.48 0)
+    (property "Footprint" "" (at 82.55 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 82.55 30.48 0)
+    (property "Datasheet" "" (at 82.55 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3d1c4d54-9378-4437-9116-572bc60e5777))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "#PWR0106") (unit 1)
         )
@@ -3867,7 +3792,7 @@
     (pin "1" (uuid 8b08d123-7099-4f2b-a2cd-977b94bc4762))
     (pin "2" (uuid c70f74eb-2e4a-4741-bc99-342307140d8d))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "R9") (unit 1)
         )
@@ -3891,7 +3816,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "HS3") (unit 1)
         )
@@ -3917,7 +3842,7 @@
     (pin "1" (uuid 9eb90e7e-f7bb-4535-8965-0e7008c11812))
     (pin "2" (uuid 8f7ab90d-344d-452c-8060-0c4864606435))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "C12") (unit 1)
         )
@@ -3934,16 +3859,22 @@
     (property "Value" "D" (at 109.22 78.74 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SquantorDiodes:SOD-523_hand" (at 109.22 81.28 0)
+    (property "Footprint" "SquantorDiodes:SOD-323-nexperia-hand" (at 109.22 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 109.22 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Sim.Device" "D" (at 109.22 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Pins" "1=K 2=A" (at 109.22 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 33c9f7b3-0290-4cfe-b2ae-56d275609897))
     (pin "2" (uuid 3e5778a0-667a-4084-b20c-c4bcbbd0b780))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "D12") (unit 1)
         )
@@ -3970,7 +3901,7 @@
     (pin "2" (uuid 34a0175e-1b06-4a60-883d-0d25b7e838b6))
     (pin "3" (uuid 072836d0-1c49-4d12-8b58-4eb74b94d6c0))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "J3") (unit 1)
         )
@@ -3995,7 +3926,7 @@
     )
     (pin "1" (uuid aef5c13c-9a55-43b4-861b-2c780c6f78e6))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "#PWR0117") (unit 1)
         )
@@ -4018,10 +3949,16 @@
     (property "Datasheet" "~" (at 63.5 21.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Sim.Device" "D" (at 63.5 21.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Pins" "1=K 2=A" (at 63.5 21.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 2aa721f1-372d-4f24-b291-ab03792d4c3d))
     (pin "2" (uuid 46a240d0-fea7-477c-9dde-a141ccdc2275))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "D2") (unit 1)
         )
@@ -4044,10 +3981,16 @@
     (property "Datasheet" "~" (at 63.5 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Sim.Device" "D" (at 63.5 52.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Pins" "1=K 2=A" (at 63.5 52.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid fb5ddc9e-2a35-4bef-a362-772b44f880c9))
     (pin "2" (uuid 308f4484-7c05-45d5-9ef2-ddfdb3d8fc98))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "D7") (unit 1)
         )
@@ -4073,7 +4016,7 @@
     (pin "1" (uuid e6f15581-ddbe-4e98-8db3-4ecf8e0a973c))
     (pin "2" (uuid 3e17b146-3dcd-4cf9-b3da-7a39f20a86e9))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "R2") (unit 1)
         )
@@ -4096,10 +4039,16 @@
     (property "Datasheet" "~" (at 57.15 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Sim.Device" "D" (at 57.15 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Pins" "1=K 2=A" (at 57.15 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 1b60db24-47b9-46b9-8ae7-4c0632861be2))
     (pin "2" (uuid 3fc5c716-5343-4be5-ba1f-b3db79a38075))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "D9") (unit 1)
         )
@@ -4107,24 +4056,24 @@
     )
   )
 
-  (symbol (lib_id "power:PWR_FLAG") (at 73.66 36.83 270) (unit 1)
+  (symbol (lib_id "power:PWR_FLAG") (at 73.66 21.59 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cf2d8023-cdb2-4b93-a329-0c5202d77386)
-    (property "Reference" "#FLG02" (at 75.565 36.83 0)
+    (property "Reference" "#FLG02" (at 75.565 21.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "PWR_FLAG" (at 77.47 36.8299 90)
+    (property "Value" "PWR_FLAG" (at 77.47 21.5899 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 73.66 36.83 0)
+    (property "Footprint" "" (at 73.66 21.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 73.66 36.83 0)
+    (property "Datasheet" "~" (at 73.66 21.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid fadb16cd-afa1-4710-8de9-1b644d1d2507))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "#FLG02") (unit 1)
         )
@@ -4150,7 +4099,7 @@
     (pin "1" (uuid 798b521d-c30d-47d1-9fa9-0f7935a6c869))
     (pin "2" (uuid 07f70c7d-5d68-4a1b-9b3c-91d5fd72f417))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "R6") (unit 1)
         )
@@ -4176,7 +4125,7 @@
     (pin "1" (uuid a6cefadf-7100-4141-a29c-6f4602a8a211))
     (pin "2" (uuid 0ea753b3-1551-4dd0-a2b0-c2948d002e9c))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "C2") (unit 1)
         )
@@ -4201,7 +4150,7 @@
     )
     (pin "1" (uuid f0507923-92da-4511-b848-b3836a617c6a))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "#PWR0113") (unit 1)
         )
@@ -4227,7 +4176,7 @@
     (pin "1" (uuid 3fc41f13-f1d2-4b1d-91a6-833c2684f863))
     (pin "2" (uuid 4b838017-5a63-49a0-95e7-efa73ee4304e))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "C8") (unit 1)
         )
@@ -4281,7 +4230,7 @@
     (pin "8" (uuid 6586644d-5464-487a-bade-5b3c9aa3b9cd))
     (pin "9" (uuid c327c531-327f-48f8-9be3-e68232300431))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "J2") (unit 1)
         )
@@ -4289,24 +4238,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 68.58 26.67 90) (unit 1)
+  (symbol (lib_id "power:GND") (at 100.33 137.16 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e6e3ba96-d120-4d82-ac3a-d3d83c329353)
-    (property "Reference" "#PWR01" (at 74.93 26.67 0)
+    (property "Reference" "#PWR01" (at 106.68 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 68.58 24.13 90)
+    (property "Value" "GND" (at 100.33 134.62 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 68.58 26.67 0)
+    (property "Footprint" "" (at 100.33 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 68.58 26.67 0)
+    (property "Datasheet" "" (at 100.33 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 4c816458-c317-4dc6-8779-89845e85c23d))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "#PWR01") (unit 1)
         )
@@ -4331,7 +4280,7 @@
     )
     (pin "1" (uuid c67e898f-3d33-4fa4-bb41-c6b810b474e4))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "#PWR0118") (unit 1)
         )
@@ -4356,7 +4305,7 @@
     )
     (pin "1" (uuid 9f97e6bc-6d96-484a-b934-29ef431a5a2e))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "#PWR0103") (unit 1)
         )
@@ -4364,24 +4313,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 82.55 22.86 90) (unit 1)
+  (symbol (lib_id "power:GND") (at 82.55 25.4 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eb3a66fb-46a1-427d-a216-a5eeb31e57b5)
-    (property "Reference" "#PWR0107" (at 88.9 22.86 0)
+    (property "Reference" "#PWR0107" (at 88.9 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 86.36 22.8599 90)
+    (property "Value" "GND" (at 86.36 25.3999 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 82.55 22.86 0)
+    (property "Footprint" "" (at 82.55 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 82.55 22.86 0)
+    (property "Datasheet" "" (at 82.55 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3be85e9b-d798-4d27-92a8-3b6256a2afd7))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "#PWR0107") (unit 1)
         )
@@ -4405,7 +4354,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "HS4") (unit 1)
         )
@@ -4428,10 +4377,16 @@
     (property "Datasheet" "~" (at 59.69 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Sim.Device" "D" (at 59.69 102.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Pins" "1=K 2=A" (at 59.69 102.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 8dcb43f0-48b8-42db-8ba7-cc0fd3f2d55a))
     (pin "2" (uuid c2d13e63-d3ee-4a5c-8442-880cc89f1eff))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "D13") (unit 1)
         )
@@ -4439,19 +4394,19 @@
     )
   )
 
-  (symbol (lib_id "SquantorDevice:C_Polarized_3x") (at 78.74 26.67 0) (unit 1)
+  (symbol (lib_id "SquantorDevice:C_Polarized_3x") (at 78.74 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f5c68534-61e0-4a26-94cc-c2ae710fcade)
-    (property "Reference" "C1" (at 78.74 21.59 0)
+    (property "Reference" "C1" (at 78.74 24.13 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "470u 35V" (at 83.82 33.02 0)
+    (property "Value" "470u 35V" (at 83.82 35.56 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SquantorRcl:Cx3-035-080-elco" (at 78.74 26.67 0)
+    (property "Footprint" "SquantorRcl:Cx3-035-080-elco" (at 78.74 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 78.74 26.67 0)
+    (property "Datasheet" "" (at 78.74 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 41e7b689-e8d0-4522-afd9-7aa3e2a6daca))
@@ -4459,7 +4414,7 @@
     (pin "3" (uuid 3b11dbbd-505e-4734-a7b4-71e74261b36f))
     (pin "4" (uuid 91d224e4-71a4-4e47-9b29-bd804479dd85))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "C1") (unit 1)
         )
@@ -4485,7 +4440,7 @@
     (pin "1" (uuid a49af060-ad8f-415d-8236-f53d8d74cdc1))
     (pin "2" (uuid aede7a53-88c6-4c9b-b1b9-6a67168d5a05))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "R5") (unit 1)
         )
@@ -4511,7 +4466,7 @@
     (pin "1" (uuid ec5a1889-dfc2-4af8-8377-0d80281368ca))
     (pin "2" (uuid 85fdce89-cc34-4975-87a2-248cdb27bd5d))
     (instances
-      (project "board_alubox_PSU"
+      (project "mod_1x1_PSU_2xAC_flexible"
         (path "/646d9e91-59b4-4865-a2fc-29780ed32563"
           (reference "C9") (unit 1)
         )
