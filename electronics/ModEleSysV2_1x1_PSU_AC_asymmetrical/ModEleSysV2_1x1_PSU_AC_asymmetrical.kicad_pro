@@ -35,8 +35,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.1,
-          "width": 1.85
+          "height": 0.9,
+          "width": 0.7
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -555,7 +555,7 @@
       },
       {
         "netclass": "Signal",
-        "pattern": "/+adj"
+        "pattern": "/+adj1"
       },
       {
         "netclass": "Signal",
@@ -568,6 +568,14 @@
       {
         "netclass": "Power",
         "pattern": "/AC_NEUT"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/+adj2"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/+5V"
       }
     ]
   },
