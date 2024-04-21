@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -56,7 +56,9 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_edge_clearance|158760000|113030000|51941a25-fd60-442b-ade8-f73bac4e5825|33aaa92d-f9f1-415e-a409-3f311540a317"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
