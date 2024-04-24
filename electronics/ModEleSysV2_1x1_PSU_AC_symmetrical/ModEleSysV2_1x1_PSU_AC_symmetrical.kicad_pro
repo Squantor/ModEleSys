@@ -35,7 +35,7 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 2.5,
+          "height": 1.6,
           "width": 1.5
         },
         "silk_line_width": 0.15,
@@ -57,7 +57,7 @@
         }
       ],
       "drc_exclusions": [
-        "silk_edge_clearance|167395000|113030000|51941a25-fd60-442b-ade8-f73bac4e5825|94cf7ac8-546e-4ae6-ae94-cc85bbbf5542"
+        "silk_edge_clearance|158760000|113030000|51941a25-fd60-442b-ade8-f73bac4e5825|94cf7ac8-546e-4ae6-ae94-cc85bbbf5542"
       ],
       "meta": {
         "filename": "board_design_settings.json",
