@@ -3891,12 +3891,6 @@
 		(uuid "92def8c3-d02b-4b82-b981-5b17106149cb")
 	)
 	(junction
-		(at 92.71 17.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "95fcec18-4965-427a-bf94-c8dd2cd7071e")
-	)
-	(junction
 		(at 53.34 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3937,12 +3931,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd6fa120-a170-4306-a8bd-67324c18249d")
-	)
-	(junction
-		(at 55.88 17.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c461ef42-1cb4-4487-b7fc-bd7217c62b3e")
 	)
 	(junction
 		(at 96.52 29.21)
@@ -4177,16 +4165,6 @@
 			(type default)
 		)
 		(uuid "0e094689-3616-41d3-95b4-8f8d2ea9b836")
-	)
-	(wire
-		(pts
-			(xy 92.71 22.86) (xy 91.44 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "102766c1-60b7-4c36-b249-6304d6d5ab89")
 	)
 	(wire
 		(pts
@@ -4600,26 +4578,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 17.78) (xy 46.99 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68a45b69-4238-42a5-ba7d-f0d054e5a9eb")
-	)
-	(wire
-		(pts
-			(xy 92.71 17.78) (xy 92.71 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69c41d77-1890-4b9b-8bf4-43fce8e29e44")
-	)
-	(wire
-		(pts
 			(xy 58.42 29.21) (xy 59.69 29.21)
 		)
 		(stroke
@@ -4840,16 +4798,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 17.78) (xy 83.82 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a18f4088-3e24-42e1-b5e6-38f1f41bf00c")
-	)
-	(wire
-		(pts
 			(xy 54.61 57.15) (xy 53.34 57.15)
 		)
 		(stroke
@@ -4907,16 +4855,6 @@
 			(type default)
 		)
 		(uuid "a78646b9-864f-41e2-bd1f-701c8fc9e964")
-	)
-	(wire
-		(pts
-			(xy 55.88 22.86) (xy 54.61 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8c4286c-6f2d-44c7-8f8e-b79bd40ccdfd")
 	)
 	(polyline
 		(pts
@@ -5207,16 +5145,6 @@
 			(type default)
 		)
 		(uuid "e36cbd1c-7665-4f77-8899-154079362c94")
-	)
-	(wire
-		(pts
-			(xy 55.88 17.78) (xy 55.88 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3feca3d-cc96-46d9-9165-9b385c778461")
 	)
 	(wire
 		(pts
@@ -6104,75 +6032,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 71.12 34.29 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0f9c84d8-fb00-4eb6-ae05-92a1f5060f83")
-		(property "Reference" "C11"
-			(at 69.85 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 76.2 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SquantorCapacitor:C_1206_0805"
-			(at 74.93 33.3248 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 71.12 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "537d7ad8-d548-481d-8b48-676d251091fc")
-		)
-		(pin "2"
-			(uuid "e47105c8-ca21-4a62-af87-85dee5966213")
-		)
-		(instances
-			(project "ModEleSysV2_1x1_PSU_AC_symmetrical"
-				(path "/646d9e91-59b4-4865-a2fc-29780ed32563"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 92.71 17.78 90)
 		(unit 1)
@@ -6964,75 +6823,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 87.63 22.86 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "42ac23c8-1cff-4822-a5a4-26ba588d9bd4")
-		(property "Reference" "C13"
-			(at 86.36 21.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 91.44 21.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SquantorCapacitor:C_1206_0805"
-			(at 91.44 21.8948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 87.63 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 87.63 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "657a9b01-9b27-4738-8813-5dbff10e155e")
-		)
-		(pin "2"
-			(uuid "37aabd0e-f252-4206-9257-5af762a913ab")
-		)
-		(instances
-			(project "ModEleSysV2_1x1_PSU_AC_symmetrical"
-				(path "/646d9e91-59b4-4865-a2fc-29780ed32563"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 76.2 33.02 180)
 		(unit 1)
@@ -7455,75 +7245,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 81.28 34.29 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5324f3c0-55e7-40ac-b6b3-19ea1a1c9a4b")
-		(property "Reference" "C10"
-			(at 77.47 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 82.55 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SquantorCapacitor:C_1206_0805"
-			(at 77.47 35.2552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 81.28 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 81.28 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b414b528-db1f-45e5-a306-7255481c85c6")
-		)
-		(pin "2"
-			(uuid "3c7596dd-a4bc-409f-9d16-d3eedf1d0ee6")
-		)
-		(instances
-			(project "ModEleSysV2_1x1_PSU_AC_symmetrical"
-				(path "/646d9e91-59b4-4865-a2fc-29780ed32563"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 66.04 26.67 90)
 		(unit 1)
@@ -7660,76 +7381,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 50.8 22.86 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7618a888-1cdd-4215-8228-73e521f2e38a")
-		(property "Reference" "C12"
-			(at 49.53 21.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 54.61 21.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SquantorCapacitor:C_1206_0805"
-			(at 54.61 21.8948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 50.8 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eb9c68aa-d86e-40c8-b448-f7cdf72d076a")
-		)
-		(pin "2"
-			(uuid "1b8f457b-bd52-4494-beed-5e72ea64b906")
-		)
-		(instances
-			(project "ModEleSysV2_1x1_PSU_AC_symmetrical"
-				(path "/646d9e91-59b4-4865-a2fc-29780ed32563"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
+		(lib_id "Device:C_Polarized")
 		(at 71.12 39.37 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7755,7 +7407,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SquantorCapacitor:C_1206_0805"
+		(property "Footprint" "SquantorCapacitor:C-025-065-elco"
 			(at 74.93 38.4048 0)
 			(effects
 				(font
@@ -7773,7 +7425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor"
 			(at 71.12 39.37 0)
 			(effects
 				(font
@@ -8442,7 +8094,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Device:C_Polarized")
 		(at 81.28 39.37 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8468,7 +8120,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SquantorCapacitor:C_1206_0805"
+		(property "Footprint" "SquantorCapacitor:C-025-065-elco"
 			(at 77.47 40.3352 0)
 			(effects
 				(font
@@ -8486,7 +8138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor"
 			(at 81.28 39.37 0)
 			(effects
 				(font
