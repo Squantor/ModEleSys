@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.8,
-          "width": 1.64
+          "drill": 3.2,
+          "height": 6.4,
+          "width": 6.4
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -61,7 +61,11 @@
       ],
       "drc_exclusions": [
         [
-          "silk_edge_clearance|158760000|113030000|51941a25-fd60-442b-ade8-f73bac4e5825|111cd735-1375-4f3c-a7f7-2a704f87ec34",
+          "silk_edge_clearance|148860000|137900000|0eb587e7-751f-47d7-9c36-57fccade3def|f0601462-279f-4a40-88d3-90610c14b792",
+          ""
+        ],
+        [
+          "silk_edge_clearance|181340000|39900000|fc1b33ea-9780-4ab1-a89a-01d25d78538a|be0b4476-8f4f-4556-8e39-13d7d2082199",
           ""
         ]
       ],
@@ -129,8 +133,6 @@
         "via_dangling": "warning",
         "zones_intersect": "error"
       },
-      "rule_severitieslegacy_courtyards_overlap": true,
-      "rule_severitieslegacy_no_courtyard_defined": false,
       "rules": {
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
@@ -139,14 +141,14 @@
         "min_connection": 0.2,
         "min_copper_edge_clearance": 0.3,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.15,
+        "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.3,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 1,
+        "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
-        "min_text_thickness": 0.12,
+        "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.2,
         "min_via_annular_width": 0.2,
@@ -166,7 +168,7 @@
       "teardrop_parameters": [
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -177,7 +179,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -188,7 +190,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -528,7 +530,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ModEleSysV2_1x1_PSU_AC_symmetrical.kicad_pro",
+    "filename": "ModEleSys_V2_backplane.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -582,9 +584,9 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.4,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "track_width": 0.2,
+        "via_diameter": 0.7,
+        "via_drill": 0.3,
         "wire_width": 6
       }
     ],
@@ -593,48 +595,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "Power",
-        "pattern": "/DC1p"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/DC1n"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/AC1_PHASE"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/AC_PHASE1_IN"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/AC_NEUT_IN"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/+aV"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/-aV"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/+adj"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/-adj"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "GND"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
@@ -763,7 +724,7 @@
   },
   "sheets": [
     [
-      "646d9e91-59b4-4865-a2fc-29780ed32563",
+      "8d9a3ecc-539f-41da-8099-d37cea9c28e7",
       "Root"
     ]
   ],
