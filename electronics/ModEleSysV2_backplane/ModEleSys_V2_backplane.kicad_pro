@@ -527,7 +527,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "Connector_Generic"
+    ]
   },
   "meta": {
     "filename": "ModEleSys_V2_backplane.kicad_pro",
